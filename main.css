@@ -1,68 +1,116 @@
 body{
-    background-color: black;
+    background-color: rgb(212, 176, 153);
+    /* evite la scrolbar horizonral qui apparait sans raison */
+    overflow-x: hidden; 
 }
 
+/* mettre la bordure à 2 ou 3 px pour voir les div */
+div{
+    border: 0px;
+    border-color: red;
+    border-style: solid;
+}
+
+/* serie de classe pour le bandeaux d'acceuil */
 .header{
     top: 0px;
     left: 0px;
 }
+.img-bk-header{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 450px;
+    opacity: 0.25;
+    z-index: -2;
+}
+.header-img-div{
+    background-color: #ffffff00;
+    margin-left: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.header-img{
+    margin-left: auto;
+    margin: auto;
+    display: block;
+    z-index: -1;
+}
+.header-title{
+    padding-top: 2%;
+    font-family: "Dancing Script", cursive;
+    font-size: 28px;
+    font-optical-sizing: auto;
+    position: absolute;
+    color: rgb(77, 65, 0);
+    margin: auto;
+    width: 100%;
+    font-weight: 1000;
+}
 
+
+
+/* scrollbar customisé */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgba(77, 65, 0, 0); 
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(77, 65, 0, 0.685); 
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(77, 65, 0); 
+}
+
+/* style de la barre de menu */
 .static_header{
     background-color: rgb(32, 32, 32);
     position: sticky;
     top: 3px;
     width: 100%;
-    height: 25px;
+    height: 120px;
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 25px;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
+.static_header button{
     float: left;
+    color: rgb(77, 65, 0);
+    background-color: #ffffff00;
+    font-size: 28px;
+    border: 0px;
+    margin: 3px;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-family: "Dancing Script", cursive;
 }
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.static_header .active{
+    float: left;
+    color: #899CC7;
+    background-color: rgb(77, 65, 0);
+    font-size: 28px;
+    border: 0px;
+    margin: 3px;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-family: "Dancing Script", cursive;
 }
-
-a:hover:not(.active) {
-    background-color: #111;
+.static_header button:hover{
+    text-decoration: underline;
+    background-color: #899CC7;
+    color: rgb(77, 65, 0);
 }
-
-.active {
-background-color:#04AA6D;
-}
-
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-  /* Track */
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 2px rgb(0, 0, 0); 
-    border-radius: 8px;
-}
-  /* Handle */
-::-webkit-scrollbar-thumb {
-    background: rgb(20, 4, 56); 
-    border-radius: 6px;
-}
-
-  /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(20, 4, 56); 
+.static_header img{
+    float: left;
+    height: 120px;
+    width: 120px;
+    margin-right: 20px;
 }
