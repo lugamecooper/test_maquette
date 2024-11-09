@@ -6,14 +6,14 @@
     <!------------------------>
     <meta charset="utf-8">
     <meta lang="fr">
-    <meta name="description" content="maquette test d'un site vitrine">
+    <meta name="description" content="maquette test de l'entreprise MATEL">
     <meta name="author" content="Lugame Cooper, Dark, Vlad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!------------------------->
     <!--titre et icone onglet-->
     <!------------------------->
-    <title>test d'une maquette</title>
-    <link rel="icon" type="image/jpg" href="./src/icone.jpg">
+    <title>MATEL</title>
+    <link rel="icon" type="image/svg" href="./src/icone_site.svg">
     <!------------------------------------------------->
     <!--import de la feuille de style et de la police-->
     <!------------------------------------------------->
@@ -38,10 +38,30 @@
     </div>
     <div class="static_header">
         <a href="#header"><img src="./src/logo_site.svg"></a>
-        <button class="active">acceuille</button>
-        <button>carte</button>
-        <button>formule soirée</button>
-        <button>réservation</button>
+        <button onclick="location.href='main.html'" class="active">acceuille</button>
+        <button onclick="location.href='./carte/main.html'">carte</button>
+        <button onclick="location.href='./formule/main.html'">formule soirée</button>
+        <button onclick="location.href='./reservation/main.html'">réservation</button>
+    </div>
+    <p class="title"> Nos produit phares</p>
+    <div class="div_produit_example">
+        <img src="./src/poseidon.png">
+        <p>le Poséidon 59 € <br> Assortiment de fruits de mer, pêchés au petit matin</p>
+    </div>
+    <div class="div_produit_example">
+        <img src="./src/st_tropez.png">
+        <p>le st-tropez 19,99 € <br> Sirop de pêche artisanal, du rosé de grand chateaux, de l`eau de source nautrellement gazeuse </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="title">Ne manquer pas non plus nos formules exéptionel</p>
+    <div class="div_produit_example">
+        <p>
+            Au MATEL, profitez de soirées thématiques uniques mêlant ambiance festive et élégance tropézienne, avec des concepts variés comme les soirées Blanches.<br> 
+            L'entrée, réservée aux majeurs sur réservation, est à 35 €, incluant l'accès aux événements et au bar.
+        </p>
     </div>
 </body>
 </html>
