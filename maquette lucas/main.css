@@ -1,5 +1,10 @@
+@font-face {
+	font-family: 'Sergio Trendy';
+	src: url("../src/FontsFree-Net-Sergio-Trendy-Regular.ttf") format("truetype")
+}
+
 body{
-    background-color: rgb(212, 176, 153);
+    background-color: #d4b099;
     /* evite la scrolbar horizonral qui apparait sans raison */
     overflow-x: hidden; 
 }
@@ -40,11 +45,11 @@ div{
     z-index: -1;
 }
 .header-title{
-    font-family: "Dancing Script", cursive;
-    font-size: 42px;
+    font-family: 'Sergio Trendy';
+    font-size: 28px;
     font-optical-sizing: auto;
     position: absolute;
-    color: rgb(77, 65, 0);
+    color: #896b26;
     margin: auto;
     width: 100%;
     font-weight: 1000;
@@ -61,11 +66,11 @@ div{
     border-radius: 8px;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgba(77, 65, 0, 0.685); 
+    background: #896b26; 
     border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(77, 65, 0); 
+    background: #896b26; 
 }
 
 /* style de la barre de menu */
@@ -74,7 +79,7 @@ div{
     position: sticky;
     top: 3px;
     width: 100%;
-    height: 60px;
+    height: 65px;
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -82,24 +87,24 @@ div{
 }
 .static_header button{
     float: right;
-    color: rgb(77, 65, 0);
+    color: #896b26;
     background-color: #ffffff00;
     font-size: 28px;
     border: 0px;
     padding: 15px;
     border-radius: 10px;
-    margin-right: 5px;
-    font-family: "Dancing Script", cursive;
+    margin-right: 10px;
+    font-family: 'Sergio Trendy';
 }
 .static_header .active{
     color: #899CC7;
-    background-color: rgb(77, 65, 0);
+    background-color: #896b26;
     font-size: 28px;
 }
 .static_header button:hover{
     text-decoration: underline;
     background-color: #899CC7;
-    color: rgb(77, 65, 0);
+    color: #896b26;
 }
 .static_header img{
     float: left;
@@ -111,8 +116,8 @@ div{
 
 /* classe pour les titres*/
 .title{
-    color: rgb(77, 65, 0);
-    font-family: "Dancing Script", cursive;
+    color: #896b26;
+    font-family: 'Sergio Trendy';
     font-size: 40px;
     text-decoration: underline;
     text-align: center;
@@ -130,8 +135,8 @@ div{
     height: 1200px;
 }
 .div_produit_example p{
-    color: rgb(77, 65, 0);
-    font-family: "Dancing Script", cursive;
+    color: #896b26;
+    font-family: 'Sergio Trendy';
     font-size: 24px;
     text-align: center;
 }
