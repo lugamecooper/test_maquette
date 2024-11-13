@@ -20,6 +20,26 @@ div{
 .header{
     margin-top: 3px;
 }
+.div-menu-rapide{
+    top: 300px;
+    left: 0px;
+    width: 300px;
+    height: 91px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    background-color: #331E11;
+    box-shadow: 5px 2px 2px #a1826f;
+    font-size: 24px;
+    font-family: 'Sergio Trendy';
+}
+.div-menu-rapide a{
+    color: #94847B;
+    text-decoration: none;
+}
+.div-menu-rapide a:hover{
+    text-decoration: underline;
+}
 .img-bk-header{
     display: flex;
     position: absolute;
@@ -48,7 +68,7 @@ div{
     font-size: 28px;
     font-optical-sizing: auto;
     position: relative;
-    color: #896b26;
+    color: #201E37;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -67,17 +87,17 @@ div{
     border-radius: 8px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #896b26; 
+    background: #331E11; 
     border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #896b26; 
+    background: #331E11; 
 }
 
 /* style de la barre de menu */
 .static_header{
     z-index: 3;
-    background-color: rgb(32, 32, 32);
+    background-color: #331E11;
     position: sticky;
     top: 3px;
     width: 100%;
@@ -89,7 +109,7 @@ div{
 }
 .static_header button{
     float: right;
-    color: #896b26;
+    color: #543E31;
     background-color: #ffffff00;
     font-size: 28px;
     border: 0px;
@@ -99,14 +119,15 @@ div{
     font-family: 'Sergio Trendy';
 }
 .static_header .active{
-    color: #899CC7;
-    background-color: #896b26;
+    color: #94847B;
+    background-color: #543E31;
     font-size: 28px;
 }
 .static_header button:hover{
     text-decoration: underline;
-    background-color: #899CC7;
-    color: #896b26;
+    background-color: #94847B;
+    box-shadow: 5px 2px 2px #543E31;
+    color: #543E31;
 }
 .static_header img{
     float: left;
@@ -118,7 +139,7 @@ div{
 
 /* classe pour les titres*/
 .title{
-    color: #896b26;
+    color: #201E37;
     font-family: 'Sergio Trendy';
     font-size: 40px;
     text-decoration: underline;
@@ -143,7 +164,7 @@ div{
     height: 1200px;
 }
 .div_produit_example p{
-    color: #896b26;
+    color: #201E37;
     font-family: 'Sergio Trendy';
     font-size: 24px;
     text-align: center;
