@@ -6,7 +6,7 @@
 body{
     background-color: #d4b099;
     /* evite la scrolbar horizonral qui apparait sans raison */
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 /* mettre la bordure à 2 ou 3 px pour voir les div */
@@ -18,13 +18,12 @@ div{
 
 /* serie de classe pour le bandeaux d'acceuil */
 .header{
-    top: 0px;
-    left: 0px;
+    margin-top: 3px;
 }
 .img-bk-header{
     display: flex;
     position: absolute;
-    top: 0px;
+    top: 98px;
     left: 0px;
     width: 100%;
     height: 450px;
@@ -75,6 +74,7 @@ div{
 
 /* style de la barre de menu */
 .static_header{
+    z-index: 3;
     background-color: rgb(32, 32, 32);
     position: sticky;
     top: 3px;
@@ -125,6 +125,10 @@ div{
 
 
 /* classe pour le div qui vas contenir les produits en présentation */
+.div_produit_example{
+    float: left;
+    width: 50%;
+}
 .div_produit_example img{
     background-color: #ffffff00;
     margin-left: auto;
