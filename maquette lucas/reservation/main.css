@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'Sergio Trendy';
+	src: url("../../src/FontsFree-Net-Sergio-Trendy-Regular.ttf") format("truetype")
+}
+body{
+    background-color: #d4b099;
+    /* evite la scrolbar horizonral qui apparait sans raison */
+    overflow-x: hidden;
+}
+
+/* mettre la bordure à 2 ou 3 px pour voir les div */
+div{
+    border: 0px;
+    border-color: red;
+    border-style: solid;
+}
+
+/* style de la barre de menu */
+.static_header{
+    z-index: 3;
+    background-color: #331E11;
+    position: sticky;
+    top: 3px;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 25px;
+}
+.static_header button{
+    float: right;
+    color: #543E31;
+    background-color: #ffffff00;
+    font-size: 28px;
+    border: 0px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Sergio Trendy';
+}
+.static_header .active{
+    color: #94847B;
+    background-color: #543E31;
+    font-size: 28px;
+}
+.static_header button:hover{
+    text-decoration: underline;
+    background-color: #94847B;
+    box-shadow: 5px 2px 2px #543E31;
+    color: #543E31;
+}
+.static_header img{
+    float: left;
+    height: 60px;
+    width: 140;
+    margin-left: 6px;
+    margin-right: 20px;
+}
