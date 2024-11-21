@@ -220,9 +220,7 @@ div{
 footer{
     background-color: #331E11;
     color:#a1826f;
-    position: absolute;
-    bottom: 2340px;
-    margin-top: 20px;
+    background-position-y:bottom;
     padding-top: 20px;
     height: 50px;
     text-align: center;
