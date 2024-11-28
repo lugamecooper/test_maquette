@@ -146,15 +146,13 @@ div{
 
 /* classe pour le div qui vas contenir les produits en présentation */
 .div_produit_example{
-    float: left;
     width: 50%;
+    float:left;
 }
 .div_produit_example img{
     background-color: #ffffff00;
     margin-left: auto;
     margin: auto;
-    display: block;
-    text-align: center;
     border-radius: 60px;
     box-shadow: 5px 2px 2px #a1826f;
     width: 800px;
@@ -175,6 +173,7 @@ div{
     border-radius: 30px;
     margin-right: 200px;
     margin-left: 200px;
+    margin-bottom: 30px;
 }
 .carte img{
     height: 60px;
@@ -220,7 +219,6 @@ div{
 footer{
     background-color: #331E11;
     color:#a1826f;
-    background-position-y:bottom;
     padding-top: 20px;
     height: 50px;
     text-align: center;
