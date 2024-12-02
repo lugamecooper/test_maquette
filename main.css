@@ -41,6 +41,34 @@ div{
     text-decoration: underline;
 }
 
+#titre_bandeaux_1{
+    text-indent: -5000px;
+}
+#produit_phares{
+    margin-top: 430px;
+}
+#soiree{
+    margin-top: 200px;
+    padding-top: 1325px;
+}
+#div_produit_example_2{
+    width: 100%;
+}
+#soiree_title{
+    float: left; 
+    height: 500px; 
+    width: 25%; 
+    margin-left: 25%;
+}
+#soiree_img{
+    margin-bottom: 20px; 
+    height: 800px; 
+    width: 420px; 
+    float: left;
+}
+#footer_accueil{
+    margin-top: 850px;
+}
 .img_background_header{
     display: flex;
     position: absolute;
@@ -214,6 +242,24 @@ div{
     text-decoration: underline;
     text-align: center;
 }
+
+#titre_carte{
+    font-size: 32px
+}
+#poisson{
+    width: 80px;
+    height: 80px;
+}
+#longueur_colone_2{
+    width: 480px
+}
+#longueur_colone_3{
+    width: 378px
+}
+
+
+
+
 
 footer{
     background-color: #331E11;

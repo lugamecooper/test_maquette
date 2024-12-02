@@ -13,7 +13,7 @@
         <!--titre et icone onglet-->
         <!------------------------->
         <title>MATEL</title>
-        <link rel="icon" type="image/svg" href="./src/icone_site.svg">
+        <link rel="icon" type="image/svg" href="../src/icone_site.svg">
         <!------------------------------------------------->
         <!--import de la feuille de style et de la police-->
         <!------------------------------------------------->
@@ -21,15 +21,15 @@
     </head>
     <body>
         <div class="static_header">
-            <a href="../index.html"><img src="../src/logo_site.svg"></a>
-            <button onclick="location.href='../index.html'">Accueil</button>
-            <button onclick="location.href='../carte/index.html'" class="active">Carte</button>
-            <button onclick="location.href='../formule/index.html'">Formule soirée</button>
-            <button onclick="location.href='../reservation/index.html'">Réservation</button>
+            <a href="../"><img src="../src/logo_site.svg"></a>
+            <button onclick="location.href='../'">Accueil</button>
+            <button onclick="location.href='../carte/'" class="active">Carte</button>
+            <button onclick="location.href='../formule/'">Formule soirée</button>
+            <button onclick="location.href='../reservation/'">Réservation</button>
         </div>
         <div class="title">
-            <p style="text-decoration: underline;">Carte des plats</p>
-            <p style="font-size: 32px">Venez profitez de nos plats soigneusement préparer au MATEL</p>
+            <p>Carte des plats</p>
+            <p id="titre_carte">Venez profitez de nos plats soigneusement préparer au MATEL</p>
         </div>
         <div class="carte">
             <div class="carte_title_div">
@@ -58,13 +58,13 @@
             </table>
             <br>
             <br>
-            <img style="width: 80px;height: 80px;" src="../src/poisson.png">
+            <img id="poisson" src="../src/poisson.png">
             <br>
             <p class="categorie_title">Plat</p>
             <table>
                 <tr>
                     <td>LE SAINT-JACQUES DE ROSSINI</td>
-                    <th style="width: 480px">46.00€</th>
+                    <th id="longueur_colone_2">46.00€</th>
                 </tr>
                 <tr>
                     <td>BOWLS DE BONITE</td>
@@ -101,7 +101,7 @@
                 </tr>
                 <tr>
                     <td>CRÉME D’AVOCAT À LA VANILLE,<br>SOBRET OSEILLEET RUBARBE</td>
-                    <th style="width: 378px;">31.00€</th>
+                    <th id="longueur_colone_3">31.00€</th>
                 </tr>
             </table>
             <br>
