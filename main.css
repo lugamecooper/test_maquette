@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Sergio Trendy';
-	src: url("../src/FontsFree-Net-Sergio-Trendy-Regular.ttf") format("truetype")
+	src: url("./src/FontsFree-Net-Sergio-Trendy-Regular.ttf") format("truetype")
 }
 
 body{
@@ -151,8 +151,7 @@ div{
 }
 .div_produit_example img{
     background-color: #ffffff00;
-    margin-left: auto;
-    margin: auto;
+    margin-left: 8%;
     border-radius: 60px;
     box-shadow: 5px 2px 2px #a1826f;
     width: 800px;
