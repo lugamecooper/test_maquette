@@ -9,6 +9,16 @@ body{
     overflow-x: hidden;
 }
 
+p{
+    font-family: 'Sergio Trendy';
+}
+button{
+    font-family: 'Sergio Trendy';
+}
+footer{
+    font-family: 'Sergio Trendy';
+}
+
 /* mettre la bordure à 2 ou 3 px pour voir les div */
 div{
     border: 0px;
@@ -31,7 +41,6 @@ div{
     background-color: #331E11;
     box-shadow: 5px 2px 2px #a1826f;
     font-size: 24px;
-    font-family: 'Sergio Trendy';
 }
 .div_menu_rapide a{
     color: #94847B;
@@ -86,7 +95,6 @@ div{
     z-index: -1;
 }
 .header_title{
-    font-family: 'Sergio Trendy';
     font-size: 28px;
     font-optical-sizing: auto;
     position: relative;
@@ -141,7 +149,6 @@ div{
     padding: 15px;
     border-radius: 10px;
     margin-right: 10px;
-    font-family: 'Sergio Trendy';
 }
 .static_header .active{
     color: #94847B;
@@ -165,7 +172,6 @@ div{
 /* classe pour les titres*/
 .title{
     color: #201E37;
-    font-family: 'Sergio Trendy';
     font-size: 40px;
     text-decoration: underline;
     text-align: center;
@@ -187,7 +193,6 @@ div{
 }
 .div_produit_example p{
     color: #201E37;
-    font-family: 'Sergio Trendy';
     font-size: 24px;
     text-align: center;
 }
@@ -209,7 +214,6 @@ div{
 }
 .carte .categorie_title{
     color: #201E37;
-    font-family: 'Sergio Trendy';
     font-size: 28px;
     text-align: center;
     text-decoration: underline;
@@ -217,7 +221,6 @@ div{
 .carte table{
     margin-left: 20%;
     color: #201E37;
-    font-family: 'Sergio Trendy';
     font-size: 24px;
     text-align: center;
 }
@@ -237,7 +240,6 @@ div{
 }
 .carte_title{
     color: #543E31;
-    font-family: 'Sergio Trendy';
     font-size: 40px;
     text-decoration: underline;
     text-align: center;
@@ -257,9 +259,13 @@ div{
     width: 378px
 }
 
-
-
-
+#div_formule{
+    width: 100%;
+    float:none
+}
+#div_formule img{
+    margin-left: 0%;
+}
 
 footer{
     background-color: #331E11;
@@ -267,7 +273,6 @@ footer{
     padding-top: 20px;
     height: 50px;
     text-align: center;
-    font-family: 'Sergio Trendy';
     font-size: 20px;
     border-radius: 40px;
 }
