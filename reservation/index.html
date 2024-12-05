@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta lang="fr">
         <meta name="description" content="maquette test de l'entreprise MATEL">
-        <meta name="author" content="Lugame Cooper, Dark, Vlad">
+        <meta name="author" content="Lucas HAGEN GIMENO, Dihany LITAMPHA, Vladimir VALLOTTON">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!------------------------->
         <!--titre et icone onglet-->
@@ -27,5 +27,79 @@
             <button onclick="location.href='../formule/'">Formule soirée</button>
             <button onclick="location.href='../reservation/'" class="active">Réservation</button>
         </div>
+        <div>
+            <p class="title">
+                Réservez une table chez Le Matel
+            </p>
+        </div>
+        <div class="div_reservation_table">
+            <form method="post" autocomplete="off">
+                <table class="div_reservation_table">
+                    <tr>
+                        <th class="altern_1" rowspan="2">
+                            1. Sélectionnez votre date et heure
+                        </th>
+                        <td class="altern_1 bottom" >
+                            <label for="date">Date: </label><input id="date" type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="altern_1 top">
+                            <label for="time">Heure: </label><input id="time" type="time">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="altern_2" rowspan="2">
+                            2. Choisissez votre emplacement
+                        </th>
+                        <td class="altern_2 bottom">
+                            <label for="terasse"><input type="radio" id="terasse" name="emplacement" value="terasse"> : terrasse</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="altern_2 top">
+                            <label for="Salle_intérieure"><input type="radio" id="Salle_intérieure" name="emplacement" value="Salle_intérieure"> : salle intérieure</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="altern_1">
+                            3. Nombre de personnes
+                        </th>
+                        <td class="altern_1">
+                            <label for="nbr_personne"><input type="number" id="nbr_personne" value=1></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="altern_2" rowspan="4">
+                            4. Informations de contact
+                        </th>
+                        <td class="altern_2 bottom">
+                            <label for="Nom">Nom : <input type="text" id="Nom" size="30"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="altern_2 top bottom">
+                            <label for="Tel">N° de téléphone : <input type="tel" id="Tel" maxlength="10"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="altern_2 top bottom">
+                            <label for="e-mail">e-mail : <input type="email" id="e-mail" size="30"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="altern_2 top">
+                            <label for="commentaire">commentaire : <textarea type="textarea" id="commentaire"></textarea></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <input type="submit" value="Validez vôtre réservation">
+                        </th>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <footer>Tel: 00.00.00.00.00 || mail: example@jsp.idk</footer>
     </body>    
 </html>
