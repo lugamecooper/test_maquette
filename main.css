@@ -279,7 +279,7 @@ footer{
 .div_reservation_table table{
     background-color: #331E11;
     border: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     border-collapse: separate;
 }
 .div_reservation_table th{
@@ -325,11 +325,11 @@ footer{
 }
 .altern_1{
     background-color: #543E31;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .altern_2{
     background-color:#543E31;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .altern_1.bottom{
     border-bottom-left-radius: 0px ;
