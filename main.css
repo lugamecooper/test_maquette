@@ -284,19 +284,19 @@ footer{
 }
 .div_reservation_table th{
     width: 120px;
-    color:#201E37;
+    color:#09062b;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 24px;
 }
 .div_reservation_table td{
-    color: #201E37;
+    color: #09062b;
     text-align: center;
     width: 200px;
 }
 .div_reservation_table input,textarea{
     margin-left: 20px;
-    color: #201E37;
+    color: #09062b;
     margin-right: 20px;
     background-color: #94847B;
     border: none;
