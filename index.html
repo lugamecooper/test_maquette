@@ -6,7 +6,7 @@
     <!------------------------>
     <meta charset="utf-8">
     <meta lang="fr">
-    <meta name="description" content="maquette test de l'entreprise MATEL">
+    <meta name="description" content="site de l'entreprise MATEL">
     <meta name="author" content="Lucas HAGEN GIMENO, Dihany LITAMPHA, Vladimir VALLOTTON">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!------------------------->
@@ -23,10 +23,10 @@
 <body>
     <div class="static_header">
         <a href="#header"><img src="./src/logo_site.svg"></a>
-        <button onclick="location.href='index.html'" class="active">Accueil</button>
-        <button onclick="location.href='./carte/index.html'">Carte</button>
-        <button onclick="location.href='./formule/index.html'">Formule soirée</button>
-        <button onclick="location.href='./reservation/index.html'">Réservation</button>
+        <button onclick="location.href='./'" class="active">Accueil</button>
+        <button onclick="location.href='./carte/'">Carte</button>
+        <button onclick="location.href='./formule/'">Formule soirée</button>
+        <button onclick="location.href='./reservation/'">Réservation</button>
     </div>
     <div class="header" id="header">
         <div>
@@ -37,7 +37,7 @@
             </p>
         </div>
         <img class="img_background_header" src="./src/fond-img-acceuil.png">
-        <p style="text-indent: -5000px;">site maquette</p>
+        <p id="titre_bandeaux_1">image d'accueil de MATEL</p>
         <div class="div_menu_rapide">
             <a href="#produit_phares">---- Nos produit phares</a>
             <br>
@@ -45,27 +45,27 @@
             <a href="#soiree">---- Nos soirées</a>
         </div>
     </div>
-    <p  style="margin-top: 430px;" class="title" id="produit_phares"> Nos produit phares</p>
+    <p class="title" id="produit_phares"> Nos produit phares</p>
     <div>
         <div class="div_produit_example">
-            <img src="./src/poseidon.png">
+            <img id="img_no_shadow" src="./src/poseidon.png">
             <p><strong>Le Poséidon :</strong> 59 € <br> Assortiment de fruits de mer, pêchés au petit matin</p>
         </div>
         <div class="div_produit_example">
             <img src="./src/st_tropez.png">
-            <p><strong>Le St-Tropez :</strong> 19,99 € <br> Composition: Sirop de pêche artisanal, Rosé de grands châteaux, Eau de source nautrellement gazeuse. </p>
+            <p><strong>Le St-Tropez :</strong> 19,99 € <br> Composition: Sirop de pêche artisanal, Rosé de grands châteaux, Eau de source naturellement gazeuse. </p>
         </div>
     </div>
-    <div style="padding-top: 1325px;">
-        <p class="title" style="margin-top: 200px;" id="soiree">Ne manquez pas non plus nos formules exceptionnelles !</p>
-        <div class="div_produit_example" style="width: 100%;">
-            <p style="float: left; height: 500px; width: 25%; margin-left: 25%;">
+    <div>
+        <p class="title" id="soiree">Ne manquez pas non plus nos formules exceptionnelles !</p>
+        <div class="div_produit_example" id="div_produit_example_2">
+            <p id="soiree_title">
                 Au MATEL, profitez de <strong>soirées thématiques uniques</strong> mêlant ambiance festive et élégance tropézienne, avec des concepts variés comme les "soirées blanches".
                 L'entrée est à 35 €, incluant l'accès aux événements et au bar. <i>(entrée réservée aux majeurs, sur réservation)</i>
             </p>
-            <img src="./src/soirée.png" style="margin-bottom: 20px; height: 800px; width: 420px; float: left;">
+            <img src="./src/soirée.png" id="soiree_img">
         </div>
     </div>
-    <footer>Tel: 00.00.00.00.00 || mail: example@jsp.idk</footer>
+    <footer id="footer_accueil">Tel: 05.55.78.98.43 || mail: contact@matel.com</footer>
 </body>
 </html>
